@@ -14,6 +14,7 @@ matplotlib = "^3.9.2"
 scipy = "^1.14.1"
 numba = "^0.60.0"
 pylandstats = "^2.4.2"
+pytest = "^8.3.3"
 
 [tool.mypy]
 allow_untyped_imports = true
