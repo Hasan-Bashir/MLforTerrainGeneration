@@ -4,7 +4,7 @@ This project was made using [poetry]() --- you will need to install poetry to us
 
 ## Getting Started
 
-Black code formatter, ruff linter, poetry (check CN new starter guide). Git, if you're just getting started recommend GitHub Desktop, or the embedded version in VSCode. What editor? I use VSCode/VSCodium.
+Black code formatter, [ruff linter](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff), [mypy type checker](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker), poetry (check CN new starter guide). Git, if you're just getting started recommend GitHub Desktop, or the embedded version in VSCode. What editor? I use VSCode/VSCodium.
 
 1. Install [pipx](https://pipx.pypa.io/stable/installation/)
 2. Install [poetry](https://python-poetry.org/docs/)

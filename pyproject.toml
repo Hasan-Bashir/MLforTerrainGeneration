@@ -15,6 +15,8 @@ scipy = "^1.14.1"
 numba = "^0.60.0"
 pylandstats = "^2.4.2"
 
+[tool.mypy]
+allow_untyped_imports = true
 
 [build-system]
 requires = ["poetry-core"]
