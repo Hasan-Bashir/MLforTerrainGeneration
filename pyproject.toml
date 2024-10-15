@@ -2,7 +2,7 @@
 name = "mlforterraingeneration"
 version = "0.1.0"
 description = ""
-authors = ["Tom271 <trademarkhodgson@gmail.com>"]
+authors = ["Tom271 <tom.hodgson@creditnature.com>"]
 readme = "README.md"
 packages = [{include = "mlforterraingeneration", from = "src"}]
 
