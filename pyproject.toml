@@ -1,24 +1,11 @@
-[tool.poetry]
+[project]
 name = "mlforterraingeneration"
 version = "0.1.0"
-description = ""
-authors = ["Tom271 <tom.hodgson@creditnature.com>"]
+description = "Add your description here"
 readme = "README.md"
-packages = [{include = "mlforterraingeneration", from = "src"}]
-
-[tool.poetry.dependencies]
-python = "^3.11"
-nlmpy = "^1.2.0"
-numpy = ">=1.22,<2.1"
-matplotlib = "^3.9.2"
-scipy = "^1.14.1"
-numba = "^0.60.0"
-pylandstats = "^2.4.2"
-pytest = "^8.3.3"
-
-[tool.mypy]
-allow_untyped_imports = true
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.0",
+    "pylandstats>=3.0.3",
+    "seaborn>=0.13.2",
+]

@@ -1,0 +1,7 @@
+[lint]
+select = ["ALL"]
+ignore = ["D","FA","PGH", "S603", "G004", "COM812", "ISC001","PLR0913"]
+
+[lint.per-file-ignores]
+"**/__init__.py" = ["T201"]
+"**/{tests,docs}/*" = ["ANN","S"]
