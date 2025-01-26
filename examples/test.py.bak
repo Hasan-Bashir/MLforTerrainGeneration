@@ -1,0 +1,13 @@
+from nlmpy import nlmpy
+import matplotlib.pyplot as plt
+import pylandstats as pls
+
+nRow = 50  # Number of rows
+nCol = 50  # Number of columns
+
+landscape = nlmpy.mpd(nRow, nCol, 0.75)
+landscape = nlmpy.classifyArray(landscape, [1, 1, 1, 1])
+
+plt.imshow(landscape)
+plt.show()
+
