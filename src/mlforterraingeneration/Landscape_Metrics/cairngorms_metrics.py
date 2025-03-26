@@ -20,8 +20,12 @@ def compute_patch_metrics(landscape, metrics, output_filepath):
 
 def plot_histogram(data, column, output_dir, prefix, input_stem, bins=20):
     plot = sns.displot(data, x=column, kind="hist", bins=bins)
-    filepath = Path(output_dir, f"{input_stem}_{prefix}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.svg")
-    plot.savefig(filepath)
+    plt.xlabel(column, fontsize=20)
+    plt.ylabel("Frequency", fontsize=20)
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
+    filepath = Path(output_dir, f"{input_stem}_{prefix}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pdf")
+    plot.savefig(filepath, format="pdf", bbox_inches="tight")
     plt.show()
     print(f"{prefix}_plot saved to {filepath}")
 
