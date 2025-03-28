@@ -29,7 +29,7 @@ I recommend enabling Format on Save in your settings for all file types.
 
 After cloning the repo, run `uv sync` this should install all the dependencies required for the project.
 
-## Generating Landscape Data and Calculating Metrics
+## Generating Simulated Landscape Data and Calculating Metrics
 
 This project aims to assess various methods of terrain generation for the use of evaluating landscape metrics. All of the code used to generate terrain/calculate metrics can be found in the src/mlforterraingeneration folder.
 
